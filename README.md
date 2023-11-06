@@ -195,7 +195,7 @@ import android.widget.Toast;
 
 
 
-```
+``` xml
 <resources>
     <string name="app_name">Toast fibonancci</string>
     <string name="button_label_toast">Toast</string>
@@ -204,7 +204,8 @@ import android.widget.Toast;
     <string name="toast_pesan">Halo, Saya M Muammar</string>
 </resources>
 ```
-```
+
+``` xml
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
