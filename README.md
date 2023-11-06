@@ -8,15 +8,12 @@ Mata Kuliah : Pemrograman Mobile
 [Tutorial silahkan cek Youtube saya](https://youtu.be/6Ru16B67IPo)
 
 <br>
+
+
+
+<br>
+
 toast activity sintax sbb:<br>
-![Screenshot 2023-11-06 221046](https://github.com/muammarM/pemrograman_mobile/assets/115475675/68f42555-0f3c-4a6b-8bba-ad9fa9ebe315)
-<br>
-
-Main aktivity sbb:<br>
-![Screenshot 2023-11-06 221155](https://github.com/muammarM/pemrograman_mobile/assets/115475675/ce78a9cf-19c1-44af-aeac-a919306c32cc)
-<br>
-
-
 ``` xml
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -100,6 +97,10 @@ Main aktivity sbb:<br>
 
 </RelativeLayout>
 ```
+
+
+
+Main aktivity sbb:<br>
 
 ``` java
  package com.example.toastfibonancci;
@@ -188,6 +189,12 @@ import android.widget.Toast;
      }
  }
 ```
+
+
+
+
+
+
 ```
 <resources>
     <string name="app_name">Toast fibonancci</string>
