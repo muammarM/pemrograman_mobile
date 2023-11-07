@@ -4,8 +4,8 @@ Kelas : TI.22.B1 <br>
 Mata Kuliah : Pemrograman Mobile
 
 
-## Tugas Mengenai Toast Fibonaci
-[Tutorial silahkan cek Youtube saya](https://youtu.be/6Ru16B67IPo)
+## Tugas Mengenai Toast Fibonaci Untuk UTS
+
 
 <br>
 
@@ -219,3 +219,5 @@ colors.xml
 
 </resources>
 ```
+
+[Tutorial silahkan cek Youtube saya](https://youtu.be/6Ru16B67IPo)
