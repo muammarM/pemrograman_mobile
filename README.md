@@ -4,7 +4,7 @@ Kelas : TI.22.B1 <br>
 Mata Kuliah : Pemrograman Mobile
 
 
-## tugas mengenai Toast Fibonaci
+## Tugas Mengenai Toast Fibonaci
 [Tutorial silahkan cek Youtube saya](https://youtu.be/6Ru16B67IPo)
 
 <br>
