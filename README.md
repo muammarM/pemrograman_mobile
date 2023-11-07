@@ -1,4 +1,4 @@
-Nama : M Muammar <br>
+ Nama : M Muammar <br>
 NIM  : 312210663 <br>
 Kelas : TI.22.B1 <br>
 Mata Kuliah : Pemrograman Mobile
@@ -194,7 +194,7 @@ import android.widget.Toast;
 
 
 
-
+Strings.xml
 ``` xml
 <resources>
     <string name="app_name">Toast fibonancci</string>
@@ -204,7 +204,7 @@ import android.widget.Toast;
     <string name="toast_pesan">Halo, Saya M Muammar</string>
 </resources>
 ```
-
+colors.xml
 ``` xml
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
