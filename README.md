@@ -7,9 +7,9 @@ Mata Kuliah : Pemrograman Mobile
 ## Tugas Mengenai Toast Fibonaci Untuk UTS
 ```string
 langkah-langkah:
-1.buat sintax perintah di mainActivity.java untuk menjalankan fungsi dari tombol yang ada di tampilan<br>
-2.buat file layout xml yang bernama toastActivity.xml berfungsi untuk memberi layout pada mainActivity<br>
-3.buat file values xml bernama strings.xml dan colors.xml<br>
+1.buat sintax perintah di mainActivity.java untuk menjalankan fungsi dari tombol yang ada di tampilan
+2.buat file layout xml yang bernama toastActivity.xml berfungsi untuk memberi layout pada mainActivity
+3.buat file values xml bernama strings.xml dan colors.xml
 ```
 <br>
 
