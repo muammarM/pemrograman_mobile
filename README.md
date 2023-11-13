@@ -14,7 +14,7 @@ Source Code:
 ## activity_main.Xml (dibuat dengan design pada android studio):
 
 <br>
-```xml
+```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -330,7 +330,7 @@ kita deklarasikan properti atau atribut yang akan kita gunakan dalam aplikasi in
 untuk count, countFibo dan maxFibo langsung kita isi dengan nilai 0 (integer) <br>
 masing masing diberi sesuai tipe data dan kita set visibility nya public <br>
 
-```
+```java
 @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -414,7 +414,7 @@ kita tampilkan toast setiap tombol count diklik sebanyak 5 kali <br>
 untuk toastA.cancel() bermaksud agar toast yang sudah ada langsung dihentikan karena toast paling cepat akan hilang dalam dua detik, jika belum dua detik dan ada toast yang aktif maka toast yang baru akan masuk dalam antrian, dan akan dijalankan berurut setelah dua detik dengan cancel ini maka kita hentikan toast yang ada<br>
 lalu jalankan toast.show() agar langsung kita tampilkan toast yang baru<br>
 
-```
+```java
     protected int calculateFibo(int n){
         if(n <= 1) {
             linear.setBackgroundColor(warna[2]);
@@ -435,7 +435,7 @@ jika angka yanng di kirim kurang dari sama dengan 1, maka akan kita ganti warna 
 namun jika tidak diberi fungsi ini maka, pemilihan warna background akan berganti berdasarkan isi dari properti count, alhasil angka fibonacci 1 yang muncul dua kali tidak mendapat background warna yang sama <br>
 di fungsi calculateFibo angka count yang dikirimkan dari fungsi calculate akan diolah sehingga akan me return angka fibonacci <br>
 
-```
+```java
     protected void reset(View view){
         count = 0;
         countFibo = 0;
