@@ -12,7 +12,7 @@ berikut adalah link video aplikasi yang di jalankan (dijalankan pada device meng
 
 Source Code: <br>
 
-[tonton disini](https://www.youtube.com/watch?v=S03EAk20E1Q)
+[Tonton disini](https://www.youtube.com/watch?v=S03EAk20E1Q)
 
 ## activity_main.xml (dibuat dengan design pada android studio):
 
