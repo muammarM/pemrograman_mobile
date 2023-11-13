@@ -4,13 +4,14 @@ Nama : M Muammar <br>
 NIM  : 312210663 <br>
 Kelas : TI.22.B1 <br>
 Mata Kuliah : Pemrograman Mobile
+---
 
 Tugas : Membuat tombol yang setiap diklik dapat bertambah angkanya, namun dengan urutan angka fibonacci, lalu lengkapi dengan fitur toast
 berikut adalah link video aplikasi yang di jalankan (dijalankan pada device menggunakan usb debugging) :
 <br>
 
 Source Code:
-
+[tonton disini] (https://www.youtube.com/watch?v=S03EAk20E1Q)
 ## activity_main.xml (dibuat dengan design pada android studio):
 
 ```xml
