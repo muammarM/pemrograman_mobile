@@ -13,7 +13,6 @@ Source Code:
 
 ## activity_main.xml (dibuat dengan design pada android studio):
 
-<br>
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
