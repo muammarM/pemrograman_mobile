@@ -11,7 +11,7 @@ berikut adalah link video aplikasi yang di jalankan (dijalankan pada device meng
 
 Source Code:
 
-## activity_main.Xml (dibuat dengan design pada android studio):
+## activity_main.xml (dibuat dengan design pada android studio):
 
 <br>
 ```
@@ -379,15 +379,15 @@ masing masing diberi sesuai tipe data dan kita set visibility nya public <br>
 
     }
 ```
-disini kita akan mengisi beberapa properti yang belum diisi sebelumnya sesuai dengan tipe data
-lalu dihubungkan menggunakan tipe data dan juga id yang ada pada activity_main.xml
-kemudian kita beri event atau aksi yang akan dilakukan ketika tombol tombol diklik
-saat tombol hitung diklik maka akan menjalankan fungsi calculate
-saat tombol reset diklik maka akan menjalankan fungsi reset
-saat tombol setmaximum diklik maka akan mengisi nilai pada properti maxFibo dan menampilkan toast dengan informasi bahwa angka maksimm fibonacci telah diperbarui
-saat tombol tampilkan toast diklik maka akan menampilkan toast dengan data angka fibonacci
+disini kita akan mengisi beberapa properti yang belum diisi sebelumnya sesuai dengan tipe data <br>
+lalu dihubungkan menggunakan tipe data dan juga id yang ada pada activity_main.xml <br>
+kemudian kita beri event atau aksi yang akan dilakukan ketika tombol tombol diklik<br>
+saat tombol hitung diklik maka akan menjalankan fungsi calculate <br>
+saat tombol reset diklik maka akan menjalankan fungsi reset ,br>
+saat tombol setmaximum diklik maka akan mengisi nilai pada properti maxFibo dan menampilkan toast dengan informasi bahwa angka maksimm fibonacci telah diperbarui<br>
+saat tombol tampilkan toast diklik maka akan menampilkan toast dengan data angka fibonacci<br>
 
-```
+```java
     protected void calculate(View view){
         if(calculateFibo(count + 1) >= maxFibo){
             if(toastA != null) toastA.cancel();
