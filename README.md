@@ -14,7 +14,7 @@ Source Code:
 ## activity_main.xml (dibuat dengan design pada android studio):
 
 <br>
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -326,9 +326,9 @@ penjelasan MainActivity.java :
     public int[] warna;
     public LinearLayout linear;
 ```
-kita deklarasikan properti atau atribut yang akan kita gunakan dalam aplikasi ini<br>
-untuk count, countFibo dan maxFibo langsung kita isi dengan nilai 0 (integer) <br>
-masing masing diberi sesuai tipe data dan kita set visibility nya public <br>
+-kita deklarasikan properti atau atribut yang akan kita gunakan dalam aplikasi ini<br>
+-untuk count, countFibo dan maxFibo langsung kita isi dengan nilai 0 (integer) <br>
+-masing masing diberi sesuai tipe data dan kita set visibility nya public <br>
 
 ```java
 @Override
@@ -379,13 +379,13 @@ masing masing diberi sesuai tipe data dan kita set visibility nya public <br>
 
     }
 ```
-disini kita akan mengisi beberapa properti yang belum diisi sebelumnya sesuai dengan tipe data <br>
-lalu dihubungkan menggunakan tipe data dan juga id yang ada pada activity_main.xml <br>
-kemudian kita beri event atau aksi yang akan dilakukan ketika tombol tombol diklik<br>
-saat tombol hitung diklik maka akan menjalankan fungsi calculate <br>
-saat tombol reset diklik maka akan menjalankan fungsi reset ,br>
-saat tombol setmaximum diklik maka akan mengisi nilai pada properti maxFibo dan menampilkan toast dengan informasi bahwa angka maksimm fibonacci telah diperbarui<br>
-saat tombol tampilkan toast diklik maka akan menampilkan toast dengan data angka fibonacci<br>
+-disini kita akan mengisi beberapa properti yang belum diisi sebelumnya sesuai dengan tipe data <br>
+-lalu dihubungkan menggunakan tipe data dan juga id yang ada pada activity_main.xml <br>
+-kemudian kita beri event atau aksi yang akan dilakukan ketika tombol tombol diklik<br>
+-saat tombol hitung diklik maka akan menjalankan fungsi calculate <br>
+-saat tombol reset diklik maka akan menjalankan fungsi reset ,br>
+-saat tombol setmaximum diklik maka akan mengisi nilai pada properti maxFibo dan menampilkan toast dengan informasi bahwa angka maksimm fibonacci telah diperbarui<br>
+-saat tombol tampilkan toast diklik maka akan menampilkan toast dengan data angka fibonacci<br>
 
 ```java
     protected void calculate(View view){
@@ -407,12 +407,12 @@ saat tombol tampilkan toast diklik maka akan menampilkan toast dengan data angka
         }
     }
 ```
-saat fungsi dijalankan, akan dicek terlebih dahulu apakah nilai count + 1 itu sama dengan atau lebih dari jumlah maksimum fibo? jika iya maka akan ada toast yang menampilkan bahwa sudah mencapai maksimum, jika tidak maka nilai count akan ditambah 1 kemudian warna background akan diubah berdasarkan sisa bagi 3 dari count, dari sisa bagi 3 itu hasilnya akan digunakan sebagai index dalam memanggil array warna <br>
-kemudian count yang sudah ditambah , maka akan dijadikan nilai dalam menjalankan fungsi calculateFibo lalu akan menerima data baru yang telah diolah di fungsi tersebut dan kemusian dimasukkan ke properti countFibo <br.
-tampilkan jumlah klik tombol hitung dan juga angka fibonacci <br>
-kita tampilkan toast setiap tombol count diklik sebanyak 5 kali <br>
-untuk toastA.cancel() bermaksud agar toast yang sudah ada langsung dihentikan karena toast paling cepat akan hilang dalam dua detik, jika belum dua detik dan ada toast yang aktif maka toast yang baru akan masuk dalam antrian, dan akan dijalankan berurut setelah dua detik dengan cancel ini maka kita hentikan toast yang ada<br>
-lalu jalankan toast.show() agar langsung kita tampilkan toast yang baru<br>
+-saat fungsi dijalankan, akan dicek terlebih dahulu apakah nilai count + 1 itu sama dengan atau lebih dari jumlah maksimum fibo? jika iya maka akan ada toast yang menampilkan bahwa sudah mencapai maksimum, jika tidak maka nilai count akan ditambah 1 kemudian warna background akan diubah berdasarkan sisa bagi 3 dari count, dari sisa bagi 3 itu hasilnya akan digunakan sebagai index dalam memanggil array warna <br>
+-kemudian count yang sudah ditambah , maka akan dijadikan nilai dalam menjalankan fungsi calculateFibo lalu akan menerima data baru yang telah diolah di fungsi tersebut dan kemusian dimasukkan ke properti countFibo <br.
+-tampilkan jumlah klik tombol hitung dan juga angka fibonacci <br>
+-kita tampilkan toast setiap tombol count diklik sebanyak 5 kali <br>
+-untuk toastA.cancel() bermaksud agar toast yang sudah ada langsung dihentikan karena toast paling cepat akan hilang dalam dua detik, jika belum dua detik dan ada toast yang aktif maka toast yang baru akan masuk dalam antrian, dan akan dijalankan berurut setelah dua detik dengan cancel ini maka kita hentikan toast yang ada<br>
+-lalu jalankan toast.show() agar langsung kita tampilkan toast yang baru<br>
 
 ```java
     protected int calculateFibo(int n){
